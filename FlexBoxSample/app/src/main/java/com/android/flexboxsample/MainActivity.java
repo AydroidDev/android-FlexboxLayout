@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /** Method to open the first flexbox layout **/
     public void onClickFlexBoxLayoutOne(View view) {
         Intent intent = new Intent(getApplicationContext(), FlexBoxLayoutOne.class);
         startActivity(intent);
