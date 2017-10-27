@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent1);
     }
 
-    public void OnClickFlexBoxLayoutThree(View view) {
+    public void onClickFlexBoxLayoutThree(View view) {
         Intent intent2 = new Intent(getApplicationContext(), FlexBoxLayoutThree.class);
         startActivity(intent2);
     }
